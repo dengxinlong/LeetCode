@@ -1,5 +1,5 @@
-#ifndef __LIST_T_H__
-#define __LIST_T_H__
+#ifndef __LIST__
+#define __LIST__
 
 #include <vector>
 #include <iostream>

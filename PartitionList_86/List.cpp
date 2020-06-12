@@ -1,4 +1,4 @@
-#include "list_t.h"
+#include "List.h"
 
 //讲数组nums中的元素全部复制到单链表 *list 中，采用头插法的方式建立单链表
 bool create_list(ListNode * *list, const vector<int> & nums)

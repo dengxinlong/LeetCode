@@ -5,15 +5,15 @@
 using namespace std;
 
 //说明：这题本质上可以看成是一道统计字符串s中每个字符出现的次数
-class Solution 
+class Solution
 {
 public:
-    int longestPalindrome(string s) 
+    int longestPalindrome(string s)
     {
         unordered_map<char, int> counts;
         for (auto elem : s)
             counts[elem]++;
-        
+
         int ret = 0;
         for (auto elem : counts)
         {
